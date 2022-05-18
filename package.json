@@ -1,0 +1,23 @@
+{
+  "name": "leet-code",
+  "version": "1.0.0",
+  "description": "刷leetcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shark-96/leet-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shark-96/leet-code/issues"
+  },
+  "homepage": "https://github.com/shark-96/leet-code#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
