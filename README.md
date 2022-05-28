@@ -1,4 +1,4 @@
-# leet-code
+# LeetCode + TypeScript + Jest
 --------------
 
 ## 1. Array
