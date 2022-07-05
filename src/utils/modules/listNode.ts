@@ -31,3 +31,12 @@ export const createListNode = (arr: Array<number>, annularIndex?: number): ListN
   })
   return head!
 }
+
+export const addListNode = (head: ListNode, node: ListNode) => {
+  let a = head
+  while (a.next) {
+    a = a.next
+  }
+  a.next = node
+  return head
+}
