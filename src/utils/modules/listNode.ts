@@ -8,9 +8,9 @@ export class ListNode {
 }
 
 export const createListNode = (arr: Array<number>, annularIndex?: number): ListNode => {
-  let head: ListNode
-  let current: ListNode
-  let annular: ListNode
+  let head: ListNode | null = null
+  let current: ListNode | null = null
+  let annular: ListNode | null = null
   arr.forEach((item, index) => {
     const obj = {
       val: item,
